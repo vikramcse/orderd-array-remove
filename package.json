@@ -1,0 +1,26 @@
+{
+  "name": "orderd-array-remove",
+  "version": "1.0.0",
+  "description": "Removed an element from array by keeping order of elements inside array",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vikramcse/orderd-array-remove.git"
+  },
+  "keywords": ["ordered", "array", "remove", "element", "splice"],
+  "author": "Vikram Jadhav",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vikramcse/orderd-array-remove/issues"
+  },
+  "homepage": "https://github.com/vikramcse/orderd-array-remove#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^2.5.3",
+    "eslint-config-airbnb": "^6.2.0",
+    "mocha": "^2.4.5"
+  }
+}
