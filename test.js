@@ -9,4 +9,8 @@ describe('tests for checkign removal of index from orderd array', function() {
   it('should return array without element "c" in orderd form', function() {
     expect(remove(['a', 'b', 'c', 'd'], 'c')).to.eql(['a', 'b', 'd']);
   });
+
+  it('should return  original array if element not found in array', function() {
+    expect(remove(['a', 'b', 'c', 'd'], 'z')).to.eql(['a', 'b', 'c', 'd']);
+  });
 });

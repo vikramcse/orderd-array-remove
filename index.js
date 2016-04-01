@@ -5,10 +5,9 @@ function removeElement(array, index) {
 
   if (location !== -1) {
     array.splice(location, 1);
-    return array;
   }
 
-  return [];
+  return array;
 }
 
 module.exports = removeElement;
