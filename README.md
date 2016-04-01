@@ -18,13 +18,13 @@ console.log(remove([1, 2, 3, 4, 5], 5));
 
 ### Explination
 
-In case the element not found in the list then the function returns an empty array
+In case the element not found in the list then the function returns an original array
 
 ```js
 var remove = require('orderd-array-remove');
 
 console.log(remove([1, 2, 3, 4, 5], 10));
-// -> []
+// -> [1, 2, 3, 4, 5]
 ```
 
 The order need to be maintained so the particular element is searched by indexOf and removed the element by splice
@@ -36,7 +36,7 @@ The order need to be maintained so the particular element is searched by indexOf
 - `array`: list
 - `element`: the element that need to be removed
 
-**Returns**: Returns the original array after removal of the element
+**Returns**: Returns the updated array after removal of the element
 
 ## License
 
