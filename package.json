@@ -1,6 +1,6 @@
 {
   "name": "orderd-array-remove",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Removed an element from array by keeping order of elements inside array",
   "main": "index.js",
   "scripts": {
